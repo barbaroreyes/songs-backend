@@ -3,7 +3,7 @@ const {Schema,model }= mongoose
 const songSchema = new Schema({
     title: String,
     artist: String,
-    time:Number
+    time: String
 
 },{timestamps:true}
 )
