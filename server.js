@@ -1,6 +1,6 @@
 require("dotenv").config();
 const express = require("express");
-// const mongoose = require("./db/connection");
+const mongoose = require("./db/conection");
 // const sevenwRouter = require("./controllers/sevenwonder")
 const app = express();
 const PORT = process.env.PORT
